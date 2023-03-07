@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Header() {
   return (
     <header className="container-fluid px-0">
@@ -5,6 +7,7 @@ function Header() {
         <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-dark">
           <div className="container">
 
+          <Link to="/Home" />
           <a class="navbar-brand" href="#">Danish Shafi</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -16,7 +19,7 @@ function Header() {
                 <a class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <Link to="Projects">Projects</Link>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
