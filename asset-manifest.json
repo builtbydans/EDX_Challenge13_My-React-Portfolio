@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/my-react-portfolio/static/css/main.86ef4b75.css",
-    "main.js": "/my-react-portfolio/static/js/main.a4c6e899.js",
-    "index.html": "/my-react-portfolio/index.html",
-    "main.86ef4b75.css.map": "/my-react-portfolio/static/css/main.86ef4b75.css.map",
-    "main.a4c6e899.js.map": "/my-react-portfolio/static/js/main.a4c6e899.js.map"
+    "main.css": "/EDX_Challenge_13_My-React-Portfolio/static/css/main.86ef4b75.css",
+    "main.js": "/EDX_Challenge_13_My-React-Portfolio/static/js/main.a4c6e899.js",
+    "index.html": "/EDX_Challenge_13_My-React-Portfolio/index.html",
+    "main.86ef4b75.css.map": "/EDX_Challenge_13_My-React-Portfolio/static/css/main.86ef4b75.css.map",
+    "main.a4c6e899.js.map": "/EDX_Challenge_13_My-React-Portfolio/static/js/main.a4c6e899.js.map"
   },
   "entrypoints": [
     "static/css/main.86ef4b75.css",
