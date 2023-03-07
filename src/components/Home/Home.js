@@ -1,9 +1,15 @@
-import React from 'react'
+
 
 function Home() {
   return (
     <div>
-      <h1>This is the Home component</h1>
+      <div class="jumbotron jumbotron-fluid container" id="hero">
+        <div class="row mt-5">
+          <div class="col d-flex justify-content-center">
+            <h1>Frontend Web Developer and Web Designer</h1>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
