@@ -3,33 +3,28 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <header className="container-fluid px-0">
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-dark">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light border-bottom border-dark">
           <div className="container">
+            <p className="navbar-brand">Danish Shafi</p>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
 
-          <Link to="/Home" />
-          <a class="navbar-brand" href="#">Danish Shafi</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <Link to="Projects">Projects</Link>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
+            <div className="collapse navbar-collapse" id="navbarNav">
+              <ul className="navbar-nav">
+                <li className="nav-item active">
+                  <Link to="/">Home</Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="Projects">Projects</Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="Contact">Contact</Link>
+                </li>
+              </ul>
+            </div>
           </div>
-
-        </div>
-      </nav>
-
+        </nav>
     </header>
   )
 };
