@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Routes className="d-flex">
+      <Routes>
         <Route index element={<Home />} />
         <Route path="Projects" element={<Projects />} />
         <Route path="Contact" element={<Contact />} />

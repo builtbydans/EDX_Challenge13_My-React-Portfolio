@@ -13,13 +13,13 @@ function Header() {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item active">
-                  <Link to="/">Home</Link>
+                  <Link to="/" style={{marginRight: '10px'}}>Home</Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="Projects">Projects</Link>
+                  <Link to="Projects" style={{marginRight: '10px'}}>Projects</Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="Contact">Contact</Link>
+                  <Link to="Contact" style={{marginRight: '10px'}}>Contact</Link>
                 </li>
               </ul>
             </div>
