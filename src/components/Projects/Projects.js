@@ -1,11 +1,15 @@
 import React from 'react'
 
-function Projects() {
+function Projects(props) {
   return (
     <div>
-      <h1>This is the Projects component</h1>
+      <p>{props.name}</p>
+      <p>{props.website}</p>
     </div>
   )
 }
 
 export default Projects
+
+// TO DO
+// Build Card Component and pass props

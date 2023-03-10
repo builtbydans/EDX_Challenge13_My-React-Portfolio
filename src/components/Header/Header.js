@@ -16,7 +16,7 @@ function Header() {
                   <Link to="/" style={{marginRight: '10px'}}>Home</Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="Projects" style={{marginRight: '10px'}}>Projects</Link>
+                  <Link to="ProjectsPage" style={{marginRight: '10px'}}>Projects</Link>
                 </li>
                 <li className="nav-item">
                   <Link to="Contact" style={{marginRight: '10px'}}>Contact</Link>
